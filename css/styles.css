@@ -1,29 +1,35 @@
   body{
+    background-color: #e0ffff;
     margin: 0;
     color: grey;
-
+    text-align: center;
+    font-family: 'Merriweather', serif;
   }
   h1{
-    margin: 0;
+    margin-top: 50px;
+    font-family: 'Sacramento', cursive;
+  }
+  h2{
+    font-family: 'Montserrat', sans-serif;
+  }
+  h3{
+    font-family: 'Montserrat', sans-serif;
+  }
+  img{
+    height: 20%;
   }
 .Firstdiv{
 
   background-color: #e0ffff;
 }
 .Secdiv{
-  width: 200px;
-  height: 200px;
-
-
+  background-color: #fff0f5;
 }
 .Thirddiv{
 
   width: 200px;
   height: 200px;
 
-}
-img{
-  height: 20%;
 }
 .Game{
   text-decoration: underline;
@@ -33,5 +39,24 @@ img{
 margin-left: auto;
 margin-right: auto;
 width: 50%;
-
+}
+.mountain{
+  display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+.topcloud{
+  height: 70px;
+  width: 150px;
+  position: absolute;
+  top:2px;
+  right:320px;
+}
+.bottomcloud{
+  height: 70px;
+  width: 150px;
+  position: absolute;
+  top:70px;
+  left:320px;
 }
