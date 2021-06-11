@@ -60,3 +60,8 @@ width: 50%;
   top:70px;
   left:320px;
 }
+.MyProfilePic{
+  width: 50%;
+  position:absolute;
+  left: 50px;
+}
