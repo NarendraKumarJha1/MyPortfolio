@@ -6,10 +6,12 @@
     font-family: 'Merriweather', serif;
   }
   h1{
+    font-size: 5.625;
     margin-top: 50px;
     font-family: 'Sacramento', cursive;
   }
   h2{
+    font-size: 2.5rem;
     font-family: 'Montserrat', sans-serif;
   }
   h3{
@@ -61,7 +63,17 @@ width: 50%;
   left:320px;
 }
 .MyProfilePic{
-  width: 50%;
-  position:absolute;
-  left: 50px;
+  width: 20%;
+  position:relative;
+  align-items: center;
+}
+.Unity{
+  width: 30%;
+  position: relative;
+  align-items: center;
+}
+.Vuforia{
+  width: 30%;
+  position: relative;
+  align-items: center;
 }
